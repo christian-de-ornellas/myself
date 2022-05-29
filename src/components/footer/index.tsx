@@ -1,7 +1,7 @@
-import { NextPage } from "next"
+import { NextPage } from 'next'
 
 export const Footer: NextPage = (): JSX.Element => {
-    return( <footer>Footer</footer>)
+  return <footer>Footer</footer>
 }
 
 export default Footer
