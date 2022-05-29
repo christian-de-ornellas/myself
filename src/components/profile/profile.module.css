@@ -22,6 +22,9 @@
   color: #fefefe;
   font-size: 3rem;
   font-weight: 700;
+  background: -webkit-linear-gradient(#8a4dd6ff, #6b65ebff, #56c6f5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .heading > h3 {
@@ -67,6 +70,9 @@
     font-size: 1.8rem;
     font-weight: 700;
     text-align: center;
+    background: -webkit-linear-gradient(#8a4dd6ff, #6b65ebff, #56c6f5ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .heading > h3 {
