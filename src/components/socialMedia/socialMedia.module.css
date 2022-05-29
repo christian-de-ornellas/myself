@@ -13,3 +13,21 @@
   color: #56c6f5ff;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .item {
+    padding: 1rem;
+  }
+
+  .item a {
+    color: #fefefe;
+  }
+  .item > a:hover {
+    color: #56c6f5ff;
+    cursor: pointer;
+  }
+}

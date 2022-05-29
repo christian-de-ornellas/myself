@@ -1,7 +1,6 @@
 import { NextPage } from 'next'
 import Image from 'next/image'
 import styles from './profile.module.css'
-import { IoLogoWhatsapp } from 'react-icons/io5'
 
 export const Profile: NextPage = (): JSX.Element => {
   return (
@@ -27,7 +26,7 @@ export const Profile: NextPage = (): JSX.Element => {
               rel="noreferrer"
               className={styles.link}
             >
-              <IoLogoWhatsapp /> Chamar no WhatsApp
+              Chamar no WhatsApp
             </a>
           </div>
         </div>
