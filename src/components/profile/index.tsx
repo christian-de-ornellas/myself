@@ -22,11 +22,11 @@ export const Profile: NextPage = (): JSX.Element => {
           <div className={styles.callToAction}>
             <a
               target="_blank"
-              href="https://api.whatsapp.com/send?phone=5521980044029&text=Eu tenho uma oportunidade para você!."
+              href="https://docs.google.com/document/d/1LiYYuBPO4oa9H6McYJOMIxhVm7b6oSYJNbv_GorwWmM/edit?usp=sharing"
               rel="noreferrer"
               className={styles.link}
             >
-              Chamar no WhatsApp
+              BAIXAR CURRÍCULO
             </a>
           </div>
         </div>
