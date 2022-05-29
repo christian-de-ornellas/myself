@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.container > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.container > h2 > mark {
+  background-image: url('/brush.png');
+  background-color: transparent;
+  background-position: center;
+  background-size: 50%;
+  color: #fff;
+}

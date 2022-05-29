@@ -9,16 +9,31 @@ export const Profile: NextPage = (): JSX.Element => {
         <div className={styles.heading}>
           <h1>Desenvolvedor Web & Mobile</h1>
           <h3>
-            Sou um <u>desenvolvedor Full-Stack</u>, trabalho com desenvolvimento
-            de sistemas desde 2013 e tive a oportunidade de trabalhar com
-            diversas tecnologias, hoje meu foco principal é no{' '}
-            <i>JavaScript e todo o seu ecossistema</i> para o desenvolvimento
-            web e mobile.
+            Sou um <u>desenvolvedor de software</u> desde 2013 e tive a
+            oportunidade de trabalhar com diversas tecnologias e em diferentes
+            projetos nacionais e internacionais, e nos últimos anos atuei em
+            diversas aplicações utilizando o{' '}
+            <i>
+              JavaScript e todo o seu ecossistema para o desenvolvimento web e
+              mobile.
+            </i>
           </h3>
+
+          <div className={styles.callToAction}>
+            <a
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=5521980044029&text=Eu tenho uma oportunidade para você!."
+              rel="noreferrer"
+              className={styles.link}
+            >
+              Chamar no WhatsApp
+            </a>
+          </div>
         </div>
+
         <div>
           <Image
-            src="/profile3.png"
+            src="/profile.png"
             alt="Christian Possidonio"
             className={styles.profile}
             width={800}

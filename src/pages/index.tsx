@@ -18,9 +18,7 @@ const Home: NextPage = () => {
         />
         <link rel="icon" type="image/png" href="/icon.png" />
       </Head>
-      <Layout>
-        <h2>Content</h2>
-      </Layout>
+      <Layout />
     </div>
   )
 }

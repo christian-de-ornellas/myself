@@ -1,10 +1,10 @@
 import { NextPage } from 'next'
-import Footer from '../footer'
 import Header from '../header'
 import Profile from '../profile'
+import styles from './layout.module.css'
 
 interface LayoutProps {
-  children: React.ReactNode
+  children?: React.ReactNode
 }
 
 export const Layout: NextPage<LayoutProps> = ({ children }): JSX.Element => {
@@ -12,8 +12,7 @@ export const Layout: NextPage<LayoutProps> = ({ children }): JSX.Element => {
     <div>
       <Header />
       <Profile />
-      <main>{children}</main>
-      <Footer />
+      <main className={styles.content}>{children}</main>
     </div>
   )
 }
