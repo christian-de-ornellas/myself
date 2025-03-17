@@ -1,10 +1,13 @@
 .container {
-  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: 0.4rem 1rem;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 1024px) {
   .container {
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
+    align-items: center;
   }
 }

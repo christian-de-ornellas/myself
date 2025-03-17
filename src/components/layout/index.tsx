@@ -10,7 +10,6 @@ interface LayoutProps {
 export const Layout: NextPage<LayoutProps> = ({ children }): JSX.Element => {
   return (
     <div>
-      <Header />
       <Profile />
       <main className={styles.content}>{children}</main>
     </div>
