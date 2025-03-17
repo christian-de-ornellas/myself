@@ -1,5 +1,4 @@
 import { NextPage } from 'next'
-import Header from '../header'
 import Profile from '../profile'
 import styles from './layout.module.css'
 
