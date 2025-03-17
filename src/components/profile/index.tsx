@@ -58,7 +58,7 @@ export const Profile: NextPage = () => {
           >
             <a
               target="_blank"
-              href="https://docs.google.com/document/d/1LiYYuBPO4oa9H6McYJOMIxhVm7b6oSYJNbv_GorwWmM/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1tR_RD5siFAcqsb-Lmulzcq_k-NcIiGcj5cKwJqpH2vg/edit?usp=sharing"
               rel="noreferrer"
               className={styles.link}
             >
