@@ -3,7 +3,7 @@ import Image from "next/image"
 import brand from '../../../public/brand-dark.png'
 import styles from './header.module.css'
 
-export const Header: NextPage = (): JSX.Element => {
+export const Header: NextPage = () => {
   return (
     <header>
       <div className={styles.container}>

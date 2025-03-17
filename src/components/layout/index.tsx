@@ -6,7 +6,7 @@ interface LayoutProps {
   children?: React.ReactNode
 }
 
-export const Layout: NextPage<LayoutProps> = ({ children }): JSX.Element => {
+export const Layout: NextPage<LayoutProps> = ({ children })=> {
   return (
     <div>
       <Profile />

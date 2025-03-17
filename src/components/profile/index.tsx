@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import styles from './profile.module.css'
 import SocialMedia from '../socialMedia'
 
-export const Profile: NextPage = (): JSX.Element => {
+export const Profile: NextPage = () => {
   return (
     <aside>
       <motion.div

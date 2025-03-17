@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io5'
 import styles from './socialMedia.module.css'
 
-export const SocialMedia: NextPage = (): JSX.Element => {
+export const SocialMedia: NextPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
