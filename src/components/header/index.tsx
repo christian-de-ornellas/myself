@@ -1,5 +1,5 @@
 import { NextPage } from 'next'
-import Image from 'next/image'
+import Image from "next/image"
 import brand from '../../../public/brand-dark.png'
 import styles from './header.module.css'
 
@@ -12,10 +12,13 @@ export const Header: NextPage = (): JSX.Element => {
           width={313}
           height={40}
           src={brand}
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
       </div>
     </header>
-  )
+  );
 }
 
 export default Header

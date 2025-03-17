@@ -1,5 +1,5 @@
 import { NextPage } from 'next'
-import Image from 'next/image'
+import Image from "next/image"
 import { motion } from 'framer-motion'
 import styles from './profile.module.css'
 import SocialMedia from '../socialMedia'
@@ -24,7 +24,10 @@ export const Profile: NextPage = (): JSX.Element => {
             className={styles.profile}
             width={150}
             height={150}
-          />
+            style={{
+              maxWidth: "100%",
+              height: "auto"
+            }} />
         </motion.div>
 
         <SocialMedia />
@@ -65,7 +68,7 @@ export const Profile: NextPage = (): JSX.Element => {
         </motion.div>
       </motion.div>
     </aside>
-  )
+  );
 }
 
 export default Profile
